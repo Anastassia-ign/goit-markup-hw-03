@@ -1,0 +1,234 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: white;
+}
+.list {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #212121;
+}
+
+:root {
+  --logo-color: #2196f3;
+  --button-color: #2196f3;
+  --brend-color: #2196f3;
+  --font1-color: #212121;
+  --font2-color: #ffffff;
+  --contacts-color: #757575;
+  --background1-color: #ffffff;
+  --background2-color: #2f303a;
+}
+
+/* logo */
+.logo-web {
+  font-family: Raleway;
+  color: var(--font-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.logo-studio {
+  font-family: Raleway;
+  color: var(--logo-color);
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+/* navigation */
+.header {
+  background: var(--background-color);
+}
+.site-nav-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+  padding-top: 16px;
+  color: var(--font-color);
+}
+
+.site-nav:hover,
+.site-nav:focus {
+  color: var(--button-color);
+}
+
+/* contacts */
+
+.contacts-links-list {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.1;
+  letter-spacing: 0.02em;
+}
+.contact-links {
+  color: var(--contacts-color);
+}
+.contact-links:focus,
+.contact-links:hover {
+  color: var(--brend-color);
+}
+
+/* Buttons */
+
+.button-link {
+  border-radius: 4px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  background: #f5f4fa;
+  color: var(--font1-color);
+}
+
+.button-link-portfolio {
+  border-radius: 4px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.06em;
+  background: #f5f4fa;
+  color: var(--font1-color);
+}
+
+.button-link:focus,
+.button-link:hover {
+  background-color: var(--button-color);
+  color: var(--font2-color);
+}
+
+.button-link-portfolio:focus,
+.button-link-portfolio:hover {
+  background-color: var(--button-color);
+  color: var(--font2-color);
+}
+
+/* Hero section */
+.hero-section1 {
+  background: var(--background2-color);
+}
+.hero-section1-title {
+  color: var(--font2-color);
+  text-align: center;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.3;
+}
+
+/* Section-Portfolio */
+.portfolio-name {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--font-color);
+}
+.portfolio-discription {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.8;
+  letter-spacing: 0.03em;
+  color: var(--contacts-color);
+}
+/* Section2-Text-Servises */
+
+.servises-title {
+  color: (--font-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.1;
+}
+.servises-description {
+  color: var(--contacts-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+}
+
+/* Section3-Pictures-Servises */
+
+.pictures-servise-title {
+  color: (--font-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+/* Section4-Team */
+
+.team-section4 {
+  background: var(--background-color);
+}
+
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--font-color);
+}
+
+.team-name-description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.2;
+  letter-spacing: 0.03em;
+  color: var(--contacts-color);
+}
+
+/* Footer */
+
+.logo-web2 {
+  color: var(--font2-color);
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+
+.contacts-footer {
+  background: var(--background2-color);
+}
+.contacts-footer-adress {
+  color: var(--font2-color);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  font-style: normal;
+  letter-spacing: 0.03em;
+}
+
+.contacts-footer-adress-mail {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
+  font-style: normal;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+/* top line bg - #FFFFFF */
+
+/* hero bg  - #2F303A  */
+
+/* hero bg  - #2F303A  */
+
+/* titles - #212121  */
+
+/* discriptions - #757575  */
+
+/* button - #2196F3  */
